@@ -9,6 +9,7 @@
   transform: scale(1.0, 1.0);
   transition-duration: 500ms;
   transition-timing-function: ease-out;
+  max-height: 128px; 
 }
 
 .card-img-wrapper {
