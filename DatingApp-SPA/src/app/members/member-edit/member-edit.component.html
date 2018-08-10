@@ -24,11 +24,11 @@
           </div>
           <div>
               <strong>Last Active:</strong>
-              <p>{{user.lastActive}}</p>
+              <p>{{user.lastActive | timeAgo}}</p>
           </div>  
           <div>
               <strong>Member since:</strong>
-              <p>{{user.created}}</p>
+              <p>{{user.created  | date: 'fullDate'}}</p>
           </div>                   
         </div>
         <div class="card-footer">
@@ -60,10 +60,6 @@
             </form>
           </tab>
           <tab heading='Edit Photos'>
-            <!-- <app-photo-editor 
-              [photos]="user.photos"
-              (getMemberPhotoChange)="updateMainPhoto($event)"
-              ></app-photo-editor>          -->
             <app-photo-editor 
               [photos]="user.photos"
               ></app-photo-editor>                   
