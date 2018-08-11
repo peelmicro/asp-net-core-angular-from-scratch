@@ -4,7 +4,7 @@ import { FileUploader } from 'ng2-file-upload';
 import { Photo } from '../../_models/photo';
 import { environment } from '../../../environments/environment';
 import { AuthService } from '../../_services/auth.service';
-import { isNgTemplate } from '../../../../node_modules/@angular/compiler';
+import { isNgTemplate } from '@angular/compiler';
 import { UserService } from '../../_services/user.service';
 import { AlertifyService } from '../../_services/alertify.service';
 

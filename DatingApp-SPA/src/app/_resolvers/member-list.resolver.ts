@@ -6,7 +6,6 @@ import { User } from '../_models/user';
 import { UserService } from '../_services/user.service';
 import { AlertifyService } from '../_services/alertify.service';
 import { catchError } from 'rxjs/operators';
-import { PaginatedResult } from '../_models/pagination';
 
 @Injectable()
 export class MemberListResolver implements Resolve<User[]> {
