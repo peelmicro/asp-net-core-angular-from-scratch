@@ -1,7 +1,7 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { FileUploader } from 'ng2-file-upload';
 
-import { Photo } from '../../_modules/photo';
+import { Photo } from '../../_models/photo';
 import { environment } from '../../../environments/environment';
 import { AuthService } from '../../_services/auth.service';
 import { isNgTemplate } from '../../../../node_modules/@angular/compiler';

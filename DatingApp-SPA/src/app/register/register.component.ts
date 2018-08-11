@@ -5,7 +5,7 @@ import { Router } from '@angular/router';
 
 import { AuthService } from '../_services/auth.service';
 import { AlertifyService } from '../_services/alertify.service';
-import { User } from '../_modules/user';
+import { User } from '../_models/user';
 
 @Component({
   selector: 'app-register',
